@@ -1,0 +1,98 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  letter-spacing: 0;
+}
+footer {
+  height: 77px;
+  background-color: #172337;
+  color: white;
+  font-size: large;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Roboto", sans-serif;
+}
+nav {
+  background-color: #2874f0;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  font-family: "Roboto", sans-serif;
+  zoom: 90%;
+}
+.logo {
+  margin: 0 200px;
+  cursor: pointer;
+}
+input {
+  width: 550px;
+  height: 35px;
+  margin-left: -190px;
+  font-size: 15px;
+}
+.search-icon {
+  display: inline;
+  position: relative;
+  top: 3px;
+  right: 38px;
+  cursor: pointer;
+}
+.login{
+  width: 115px;
+  height: 30px;
+  background-color: white;
+  color: #2455f4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  position: relative;
+  left: 150px;
+  font-size: 17px;
+}
+.login:hover{
+  width: 115px;
+  height: 30px;
+  background-color: white;
+  color: #2874f0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  position: relative;
+  left: 150px;
+  font-size: 19px;
+  color: #2455f4;
+}
+.cart{
+  display: flex;
+  align-items: center;
+  color: white;
+  position: relative;
+  left: 210px;
+  cursor: pointer;
+  font-size: 17px;
+}
+.download{
+  display: flex;
+  align-items: center;
+  color: white;
+  position: relative;
+  cursor: pointer;
+  left: 267px;
+}
+.download-icon{
+  position: relative;
+  left: 2px;
+  top: 2px;
+}
+.main-img{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main-img img{
+  width: 100%;
+}
